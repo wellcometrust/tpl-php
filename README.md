@@ -1,5 +1,7 @@
 # tpl-php
 
+[![CircleCI](https://circleci.com/gh/wellcometrust/tpl-php.svg?style=svg)](https://circleci.com/gh/wellcometrust/tpl-php)
+
 Renderer for Drupal 7 `.tpl.php` files for use with pattern libraries.
 
 ### Installation
