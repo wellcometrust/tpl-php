@@ -9,7 +9,7 @@ Renderer for Drupal 7 `.tpl.php` files for use with pattern libraries.
 #### Dependencies
 
 + Node 7+
-+ A decent version of PHP
++ PHP 5+
 
 ### Usage
 
