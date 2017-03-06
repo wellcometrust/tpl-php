@@ -19,7 +19,7 @@ In node:
 
 ```js
 tplphp('my-template.tpl.php', { name: 'Alasdair' })
-.then(rendered => console.log(rendered));
+.then(rendered => console.log(rendered)); // <h1>Good morning, Alasdair</h1>
 ```
 
 ### Development
