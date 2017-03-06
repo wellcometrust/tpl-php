@@ -8,7 +8,7 @@ const exec = require('child_process').exec;
  * @return     {Promise}  a Promise which resolves to the rendered HTML
  */
 const render = function(filePath, context) {
-  const cmd = `php transformer.php ${filePath} '${JSON.stringify(context)}'`;
+  const cmd = `php ${__dirname}/transformer.php ${filePath} '${JSON.stringify(context)}'`;
 
   return new Promise((resolve, reject) => {
     exec(cmd, (err, stdout, stderr) => {

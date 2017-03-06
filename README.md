@@ -2,10 +2,14 @@
 
 Renderer for Drupal 7 `.tpl.php` files for use with pattern libraries.
 
-
 ### Installation
 
 `npm install tpl-php`
+
+#### Dependencies
+
++ Node 7+
++ A decent version of PHP
 
 ### Usage
 
