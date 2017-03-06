@@ -1,0 +1,27 @@
+{
+  "name": "tpl-php",
+  "version": "0.1.0",
+  "description": "Renderer for Drupal 7 .tpl.php files for use with pattern libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wellcometrust/tpl-php.git"
+  },
+  "keywords": [
+    "drupal",
+    "templates",
+    "pattern-library"
+  ],
+  "author": "Jakub Fiala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wellcometrust/tpl-php/issues"
+  },
+  "homepage": "https://github.com/wellcometrust/tpl-php#readme",
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  }
+}
