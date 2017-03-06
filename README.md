@@ -18,7 +18,9 @@ Your template:
 In node:
 
 ```js
-tplphp('my-template.tpl.php', { name: 'Alasdair' })
+const tpl = require('tpl-php');
+
+tpl('my-template.tpl.php', { name: 'Alasdair' })
 .then(rendered => console.log(rendered)); // <h1>Good morning, Alasdair</h1>
 ```
 
