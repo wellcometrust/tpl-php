@@ -31,5 +31,11 @@ describe('tpl-php render function', () => {
       console.log(err);
       done.fail();
     })
-  })
+  });
+
+  it('fails if the filename doesn\'t end with .tpl.php', done => {
+    tpl('./spec/tpl/not_tpl.php')
+    .then(() => done.fail())
+    .catch(err => done());
+  });
 });
