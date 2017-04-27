@@ -17,7 +17,7 @@ describe('tpl-php render function', () => {
     });
   });
 
-  it('also works using the $context variable (for Drupal Paragraphs)', done => {
+  it('also works using the $content variable (for Drupal Paragraphs)', done => {
     tpl('./spec/tpl/paragraph.tpl.php', { name: 'Paragraph' })
     .then(rendered => {
       expect(rendered).toBe('<h1>Hello, Paragraph</h1>\n');
