@@ -28,6 +28,9 @@ const tpl = require('tpl-php');
 
 tpl('my-template.tpl.php', { name: 'Alasdair' })
 .then(rendered => console.log(rendered)); // <h1>Good morning, Alasdair</h1>
+
+// if the template executes with errors, you can toggle whether they're shown in the output or not
+tpl('my-template.tpl.php', { name: 'Alasdair' }, { showErrors: true });
 ```
 
 ### Development
