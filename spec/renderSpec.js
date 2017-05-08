@@ -36,7 +36,6 @@ describe('tpl-php render function', () => {
       done();
     })
     .catch(err => {
-      console.log(err);
       done.fail();
     })
   });
