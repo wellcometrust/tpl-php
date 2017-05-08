@@ -1,6 +1,6 @@
 {
   "name": "tpl-php",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Renderer for Drupal 7 .tpl.php files for use with pattern libraries",
   "main": "index.js",
   "scripts": {
